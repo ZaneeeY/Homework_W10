@@ -86,7 +86,6 @@
               { "test": "year_selection == '2000'", "field": "Population per square kilometer by country in 2000" }
             ],
             "field": "Population per square kilometer by country in 2020",
-           
             "title": "Population per square kilometer",
             "type": "quantitative",
             "scale": {
@@ -95,17 +94,17 @@
               "range": ["#efedf5", "#cbc9e0", "#bcbddc", "#726cac", "#120060"]
             }
           },
-  
+
           "tooltip": [
             {"field": "Rank", "type": "nominal", "title": "Rank of total Population"},
             {"field": "properties.NAME", "type": "nominal", "title": "Country"},
             {"field": "Capital", "type": "nominal", "title": "Capital"},
-            {"field": "Population2020", "type": "quantitative", "format": ","},
-            {"field": "Population per square kilometer by country in 2020", "type": "quantitative", "format": ".2f"},
-            {"field": "Population2010", "type": "quantitative", "format": ","},
-            {"field": "Population per square kilometer by country in 2010", "type": "quantitative", "format": ".2f"},
-            {"field": "Population2000", "type": "quantitative", "format": ","},
-            {"field": "Population per square kilometer by country in 2000", "type": "quantitative", "format": ".2f"}
+            {"field": "Population2020", "type": "quantitative", "title": "Population in 2020", "format": ","},
+            {"field": "Population per square kilometer by country in 2020", "type": "quantitative", "title": "Population in 2020 per square km²", "format": ".2f"},
+            {"field": "Population2010", "type": "quantitative", "title": "Population in 2010", "format": ","},
+            {"field": "Population per square kilometer by country in 2010", "type": "quantitative", "title": "Population in 2010 per square km²", "format": ".2f"},
+            {"field": "Population2000", "type": "quantitative", "title": "Population in 2000", "format": ","},
+            {"field": "Population per square kilometer by country in 2000", "type": "quantitative", "title": "Population in 2000 per square km²", "format": ".2f"}
           ]
         }
       }
